@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  background-image: url('../image/boil.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.input-form {
+  width: 300px;
+  background-color: #eeeff1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+.text-field {
+  width: 100%;
+  border:none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.submit-btn {
+  font-size: 14px;
+  background-color: #0099CC;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  background-color: #9b9b9b;
+}
