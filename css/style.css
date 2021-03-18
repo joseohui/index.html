@@ -59,8 +59,11 @@ p{
   margin-bottom: 10px;
 }
 
-img{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+.center{
+  text-align: center;
+}
+
+.center img{
+  margin-left: 10px;
+  margin-right: 10px;
 }
