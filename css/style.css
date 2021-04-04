@@ -10,28 +10,32 @@
 }
 
 body {
-  background-image: url('../image/boil.png');
+  background-color: black;
   background-repeat:no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-h1{
-  font-size: 48px;
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   vertical-align: middle;
-  margin: 50px auto 50px auto;
-  border: 12px solid white;
-  padding: 50px 30px;
-  line-height: 90px;
+  margin: 20px auto 20px auto;
+  padding: 10px 10px;
+  line-height: 40px;
+}
+
+h1{
+  font-size: 30px;
+  vertical-align: middle;
   color: white;
-  width: 300px;
-  height: 300px;
   text-align: center;
 }
 
 .input-form {
   width: 400px;
-  margin:100px auto;
+  margin:40px auto;
   padding: 20px;
   text-align: center;
 }
@@ -46,7 +50,7 @@ h1{
 
 .submit-btn {
   font-size: 14px;
-  background-color: #006699;
+  background-color: #708090;
   color: white;
   width: 300px;
   padding: 10px;

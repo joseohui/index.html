@@ -8,23 +8,30 @@
 
 
 <body>
-    <h1>99도씨<br>세척소</h1>
+  <img src="image/white_logo.png" class="logo"></img>
+  <h1>99℃의 온도에서 99%살균한다</h1>
+
+
     <div class="input-form">
-    <form>
+    <form name="frm" enctype="multipart/form-data" method="post">
       <input type="text" class="text-field" placeholder="주소">
       <input type="text" class="text-field" placeholder="기타사항(현관 비밀번호 등)">
-      <input type="submit" value="입력완료" class="submit-btn">
+      <a href="okay.html"><input type="button" value="입력완료" onclick="alert('제출하시겠습니까?')" class="submit-btn"></a>
     </form>
-  </div>
+   </div>
+
+   $(function() {
+       $("input[type=submit]").click(function() {
+           var result = $("input[type=text]").val();
+           if (!result) {
+             alert("입력하십시오");
+           }
+       })
+   })
+
 
   <p>*앱 개발을 위한 베타테스트 진행 중입니다.</p>
   <p>*저녁 9시까지만 수거합니다.</p>
-  <p>*99도씨 세척소 채널 둘러보기</p>
-  <div class="center">
-    <a href="https://www.facebook.com/99도씨-세척소-109344941234529/"><img src ='image/facebook.png'width="40"</img></a>
-    <a href="https://www.instagram.com/temperature_99/"><img src ='image/instagram.png'width="38"</img></a>
-    <a href="http://pf.kakao.com/_BhxmHK"><img src ='image/kakao.png'width="40"</img></a>
-  </div>
 
 </body>
 </html>
